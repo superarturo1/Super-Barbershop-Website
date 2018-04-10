@@ -1,0 +1,188 @@
+/*
+  Author: Artur Sachakov
+  Date:   12/20/2016
+
+  Filename:  Careers.css
+
+*/
+
+
+
+/* Default Styles */
+
+* {
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+header, nav, section {
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+   position: static;
+}
+
+
+/* Body Styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 0px auto;
+   width: 1100px;
+   text-align: center;
+   background-color: gray;
+}
+
+#barberandchair{
+	   display: block;
+    margin: auto;
+   	 
+}
+
+p{
+font-size: 25px;
+text-align: left;
+}
+
+
+
+
+
+
+
+/* Navigation Styles */
+nav {
+   margin-top: -3px;
+}
+
+nav ul {
+   border-bottom: 2px solid red;
+   height: 24px;
+   
+}
+
+nav ul li {
+padding: 0px;
+   display:inline-block;
+   margin: 0px 3px; 
+   width: 97px; 
+   line-height: 20px;
+   height: 20px; 
+   text-align: center; 
+   background: url(../images/tab.jpg) no-repeat top left;
+   border: 2px solid red;
+   
+}
+
+nav ul li a {
+   display: inline-block; 
+   width: 97px; 
+   font-size: 12px; 
+   font-weight: bold;
+   text-decoration: none; 
+   color: black;
+}
+
+nav ul li:hover {
+   background: url(../images/icedcoffee2.jpg) no-repeat top left;
+} 
+
+header img {
+margin: auto;
+}
+
+
+
+/* Animated Menu Styles */
+<style>
+#sse50 
+{
+    border: solid 1px #370202;
+    background:#BD0000 url('../Images/mb50_3_bg.gif') repeat-x;
+    padding:0px;/*changing its value will give menu margins to its container*/
+    text-align:center;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#sses50
+{
+    margin:0 auto;/*If you don't want the menu center aligned, remove this line and above text-align:center*/
+    font-size:0;
+}
+        
+#sses50 ul, #sses50 li
+{
+    display: inline;
+    list-style-type:none;padding:0;margin:0;border:0;background-image:none;
+}
+        
+#sses50 a
+{
+    text-align: center;
+    display: inline-block;
+    font: normal 11px Verdana;
+    background: #900 url('../Images/mb50_3.gif') no-repeat left top;
+    padding: 10px 20px;/*This defines the size of each menu item*/
+    color: white;
+    text-decoration: none;
+}
+        
+#sses50 a:hover, #sses50 a.current
+{
+    background-position: 0% -60px;
+    color: white;
+}
+#sses50 a.end
+{
+    width:2px;
+    padding-left:0;padding-right:0;
+}
+</style>
+
+
+
+
+/* Footer styles */
+footer {
+   width: 100%;
+   bottom: 0px;
+}
+
+footer address {
+   border-top: 2px solid red;
+   font-size: 15px;
+   font-style: normal;
+   text-align: center;
+}
+
+.fancy_title{
+font-size: 48px;
+font-weight: bold;
+text-align: left;
+
+
+}
+
+.char1{color:purple;}
+.char2{color:red;}
+.char3{color:orange;}
+.char4{color:blue;}
+.char5{color:darkorange;}
+.char6{color:green;}
+.char7{color:dodgerblue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

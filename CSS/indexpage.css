@@ -1,0 +1,415 @@
+/*
+   Name: Artur Sachakov
+   Date: 12/20/2016
+
+   Filename:         indexpage.css
+   
+
+*/
+
+
+/* Default Styles */
+* {
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+header, nav, section {
+   	width: 100%;
+   display: inline-block;
+  	 text-align: center;
+   position: static;
+
+}
+
+
+
+/* Navigation Styles */
+nav {
+   margin-top: -3px;
+}
+
+nav ul {
+   border-bottom: 2px solid red;
+   height: 24px;
+   
+}
+
+nav ul li {
+padding: 0px;
+   display:inline-block;
+   margin: 0px 3px; 
+   width: 97px; 
+   line-height: 20px;
+   height: 20px; 
+   text-align: center; 
+   background: url(../images/tab.jpg) no-repeat top left;
+   border: 2px solid red;
+   
+}
+
+nav ul li a {
+   display: inline-block; 
+   width: 97px; 
+   font-size: 12px; 
+   font-weight: bold;
+   text-decoration: none; 
+   color: black;
+}
+
+nav ul li:hover {
+   background: url(../images/icedcoffee2.jpg) no-repeat top left;
+} 
+
+header img {
+margin: auto;
+}
+
+
+
+
+
+/* Body Styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 0px auto;
+   width: 1100px;
+   background-color: gray;
+   
+   
+   }
+
+h1, #thankyou {
+color: red;
+text-align: center;
+}
+
+h2{
+text-align: center;
+}
+
+div p{
+text-align: center;
+}
+
+p{
+font-size: 25px;
+text-align: center;
+}
+
+
+
+
+/* Footer styles */
+footer {
+   width: 100%;
+   bottom: 0px;
+}
+
+footer address {
+   border-top: 2px solid red;
+   font-size: 15px;
+   font-style: normal;
+   text-align: center;
+}
+
+.btitle{
+
+font-weight: bold;
+text-align: center;
+
+}
+
+.word1{color:purple;}
+.word2{color:red;}
+.word3{color:orange;}
+.word4{color:blue;}
+.word5{color:darkorange;}
+.word6{color:green;}
+.word7{color:dodgerblue;}
+.word8{color:chocolate;}
+.word9{color:brown;}
+.word10{color:darkblue;}
+
+
+<!-- Slide Show -->
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -70px;
+  padding: 16px;
+  color: red;
+   font-weight: bold;
+  font-size: 100px;
+  transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+  
+
+}
+
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 1px;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: -1px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* Animated Menu Styles */
+<style>
+#sse50 
+{
+    border: solid 1px #370202;
+    background:#BD0000 url('../Images/mb50_3_bg.gif') repeat-x;
+    padding:0px;/*changing its value will give menu margins to its container*/
+    text-align:center;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#sses50
+{
+    margin:0 auto;/*If you don't want the menu center aligned, remove this line and above text-align:center*/
+    font-size:0;
+}
+        
+#sses50 ul, #sses50 li
+{
+    display: inline;
+    list-style-type:none;padding:0;margin:0;border:0;background-image:none;
+}
+        
+#sses50 a
+{
+    text-align: center;
+    display: inline-block;
+    font: normal 11px Verdana;
+    background: #900 url('../Images/mb50_3.gif') no-repeat left top;
+    padding: 10px 20px;/*This defines the size of each menu item*/
+    color: white;
+    text-decoration: none;
+}
+        
+#sses50 a:hover, #sses50 a.current
+{
+    background-position: 0% -60px;
+    color: white;
+}
+#sses50 a.end
+{
+    width:2px;
+    padding-left:0;padding-right:0;
+}
+</style>
+
+/*Slide Show Styles*/
+	body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:0px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../Images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../Images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

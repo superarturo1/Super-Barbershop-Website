@@ -1,0 +1,256 @@
+/* Default Styles */
+* {
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+header, nav, section {
+	width: 100%;
+	display: inline-block; 
+	text-align: center;
+    position: static;
+   
+}
+
+
+
+
+/* Form Styles */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: helvetica;
+}
+
+body{
+	background-color: gray;
+}
+
+.main{
+	width: 500px;
+	margin: 50px auto;
+	border: 3px solid #dc143c;
+	border-radius: 10px;
+	background-color: #fffaf0;
+	border-left: 40px solid #dc143c;
+	box-shadow: 2px 2px 10px #000;
+}
+
+.info{
+	width: 100%;
+	padding: 8px;
+	background-color: #dc143c;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+.form-box{
+	padding: 25px;
+}
+
+label{
+	color: navy;
+	font-size: 20px;
+}
+
+.inp, #msg-box{
+width: 100%;
+padding: 10px;
+margin-bottom: 5px;
+margin-top: 3px;
+border: 2px solid #dc143c;
+border-radius: 5px;
+font-weight: bold;
+border-right: 20px solid #dc143c;
+border-left: 20px solid #dc143c;
+color: navy;
+}
+
+.inp:focus, #msg-box:focus{
+	outline: none;
+	border: 2px solid navy;
+	border-right: 20px solid navy;
+	border-left: 20px solid navy;
+	
+}
+
+#msg-box{
+	resize: none;
+	height: 80px;
+}
+
+.sub-btn{
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(#dc143c, #800000);
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.sub-btn:focus{
+	outline: none;
+}
+
+.sub-btn:hover{
+	background: linear-gradient(#800000, #dc143c);
+	transition: all ease-out 0.2s;
+	opacity: 0.9;
+	filter: alpha(opacity=10);
+}
+
+@media(max-width: 720px){
+	.main{
+		width: 90%;
+	}
+
+}
+
+/* Body Styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 0px auto;
+   width: 1100px;
+}
+
+/* Footer styles */
+footer {
+   width: 100%;
+   bottom: 0px;
+}
+
+footer address {
+   border-top: 2px solid red;
+   font-size: 15px;
+   font-style: normal;
+   text-align: center;
+}
+
+
+/* Title (Contact Us) styles */
+.fancy_title{
+font-size: 48px;
+font-weight: bold;
+
+}
+
+.char1{color:purple;}
+.char2{color:red;}
+.char3{color:orange;}
+.char4{color:white;}
+.char5{color:Green;}
+.char6{color:chocolate;}
+.char7{color:dodgerblue;}
+.char8{color:red;}
+.char9{color:green;}
+.char10{color:violet;}
+
+
+/* Navigation Styles */
+nav {
+   margin-top: -3px;
+}
+
+nav ul {
+   border-bottom: 2px solid red;
+   height: 24px;
+   
+}
+
+nav ul li {
+padding: 0px;
+   display:inline-block;
+   margin: 0px 3px; 
+   width: 137px; 
+   line-height: 20px;
+   height: 20px; 
+   text-align: center; 
+   background: url('../images/tab.jpg') no-repeat top left;
+   border: 2px solid red;
+   
+}
+
+nav ul li a {
+   display: inline-block; 
+   width: 137px; 
+   font-size: 12px; 
+   font-weight: bold;
+   text-decoration: none; 
+   color: black;
+}
+
+nav ul li:hover {
+   background: url('../images/icedcoffee2.jpg') no-repeat top left;
+}
+
+header img {
+margin: auto;
+}
+
+
+/*Animated Menu*/
+<style>
+#sse50 
+{
+    border: solid 1px #370202;
+    background:#BD0000 url('../images/mb50_3_bg.gif') repeat-x;
+    padding:0px;/*changing its value will give menu margins to its container*/
+    text-align:center;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#sses50
+{
+    margin:0 auto;/*If you don't want the menu center aligned, remove this line and above text-align:center*/
+    font-size:0;
+}
+        
+#sses50 ul, #sses50 li
+{
+    display: inline;
+    list-style-type:none;padding:0;margin:0;border:0;background-image:none;
+}
+        
+#sses50 a
+{
+    text-align: center;
+    display: inline-block;
+    font: normal 11px Verdana;
+    background: #900 url('../images/mb50_3.gif') no-repeat left top;
+    padding: 10px 20px;/*This defines the size of each menu item*/
+    color: white;
+    text-decoration: none;
+}
+        
+#sses50 a:hover, #sses50 a.current
+{
+    background-position: 0% -60px;
+    color: white;
+}
+#sses50 a.end
+{
+    width:2px;
+    padding-left:0;padding-right:0;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
